@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hotel Booking Form</title>
+</head>
+<body>
+
+<h2 align="center">Hotel Booking Form</h2>
+
+<form align="center">
+
+    <!-- Guest Name -->
+    <label>Full Name:</label><br>
+    <input type="text" name="name" placeholder="Enter your name"><br><br>
+
+    <!-- Email -->
+    <label>Email:</label><br>
+    <input type="email" name="email" placeholder="Enter your email"><br><br>
+
+    <!-- Phone -->
+    <label>Mobile Number:</label><br>
+    <input type="tel" name="phone" placeholder="Enter mobile number"><br><br>
+
+    <!-- Check-in -->
+    <label>Check-in Date:</label><br>
+    <input type="date" name="checkin"><br><br>
+
+    <!-- Check-out -->
+    <label>Check-out Date:</label><br>
+    <input type="date" name="checkout"><br><br>
+
+    <!-- Room Type -->
+    <label>Room Type:</label><br>
+    <select name="room">
+        <option>Single</option>
+        <option>Double</option>
+        <option>Deluxe</option>
+        <option>Suite</option>
+    </select><br><br>
+
+    <!-- Guests -->
+    <label>No. of Guests:</label><br>
+    <input type="number" min="1" max="10"><br><br>
+
+    <!-- Payment -->
+    <label>Payment Mode:</label><br>
+    <input type="radio" name="payment"> Cash
+    <input type="radio" name="payment"> Card
+    <input type="radio" name="payment"> UPI<br><br>
+
+    <!-- Special Request -->
+    <label>Special Request:</label><br>
+    <textarea rows="4" cols="30" placeholder="Any special request"></textarea><br><br>
+
+    <!-- Submit -->
+    <input type="submit" value="Book Now">
+    <input type="reset" value="Reset">
+
+</form>
+
+</body>
+</html>
