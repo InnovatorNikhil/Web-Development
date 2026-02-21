@@ -29,11 +29,11 @@ body {
     box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
 }
 
-.product-card h3 {
+.product-card  {
     margin-bottom: 10px;
 }
 
-.product-card p {
+.product-card {
     font-size: 18px;
     font-weight: bold;
     color: green;
